@@ -20,7 +20,7 @@ function Expenses(props) {
       return expense.Date;
     }
   });
-  console.log("expense.js"); console.log(filteredExpenses);
+  // console.log("expense.js"); console.log(filteredExpenses);
 
   return (
     <div>

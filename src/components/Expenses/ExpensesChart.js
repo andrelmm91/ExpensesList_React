@@ -20,9 +20,9 @@ function ExpensesChart(props) {
     const expenseMonth = expense.Date.getMonth(); // starting at 0 as January
     chartDataPoint[expenseMonth].value += expense.Amount;
   }
-  console.log("ExpenseChart.js");  console.log(chartDataPoint);
+//   console.log("ExpenseChart.js");  console.log(chartDataPoint);
 
-  return <Chart dataPoints={props.expenses} />;
+  return <Chart dataPoints={chartDataPoint} />;
 }
 
 export default ExpensesChart;
