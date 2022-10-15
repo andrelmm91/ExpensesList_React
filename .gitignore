@@ -2,6 +2,6 @@
 .txt
 .png
 node_modules
-
+.eslintcache
 #comment
 # .txt >> all files txt extension will be ignored, eg.
