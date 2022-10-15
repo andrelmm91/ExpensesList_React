@@ -7,7 +7,7 @@ import ExpensesList from "./ExpensesList";
 import ExpensesChart from "./ExpensesChart";
 
 function Expenses(props) {
-  const [filteredYear, setFilteredYear] = useState("2022"); // 2022 here is just a default value or an initializer.
+  const [filteredYear, setFilteredYear] = useState("2020"); // 2022 here is just a default value or an initializer.
   function filterChangeHandler(selectedYear) {
     setFilteredYear(selectedYear);
   }
@@ -20,7 +20,7 @@ function Expenses(props) {
       return expense.Date;
     }
   });
-  // console.log("expense.js"); console.log(filteredExpenses.length);
+  console.log("expense.js"); console.log(filteredExpenses);
 
   return (
     <div>

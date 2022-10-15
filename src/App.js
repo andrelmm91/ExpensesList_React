@@ -3,10 +3,12 @@ import NewExpenses from "./components/NewExpenses/NewExpenses";
 import { useState } from "react";
 
 const expensesList = [
-  { Title: "Car Insurance", Amount: "99", Date: new Date(2022, 2, 28) },
-  { Title: "Dog Insurance", Amount: "528", Date: new Date(2021, 3, 28) },
-  { Title: "House Insurance", Amount: "288", Date: new Date(2019, 4, 28) },
-  { Title: "Bike Insurance", Amount: "338", Date: new Date(2021, 7, 28) },
+  { Title: "Car Insurance", Amount: 99, Date: new Date(2022, 2, 28) },
+  { Title: "Dog Insurance", Amount: 528, Date: new Date(2021, 3, 28) },
+  { Title: "House Insurance", Amount: 288, Date: new Date(2019, 4, 28) },
+  { Title: "Bike Insurance1", Amount: 338, Date: new Date(2020, 7, 28) },
+  { Title: "Bike Insurance2", Amount: 648, Date: new Date(2020, 7, 28) },
+  { Title: "Bike Insurance3", Amount: 538, Date: new Date(2020, 9, 28) },
 ];
 
 function App() {

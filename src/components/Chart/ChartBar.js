@@ -1,8 +1,8 @@
-import "./ChartBar.css";
+import './ChartBar.css'
 
 function ChartBar(props) {
   let barFillHeight = "0%";
-  if (props.max > 0) {
+  if (props.maxValue > 0) {
     barFillHeight = Math.round((props.value / props.maxValue) * 100) + "%";
   }
 
@@ -11,8 +11,8 @@ function ChartBar(props) {
       <div className="chart-bar__inner">
         <div
           className="chart-bar__fill"
-          style={{ height: barFillHeight }}
-        ></div>
+          style={{height: barFillHeight}}
+        >{props.value}</div>
       </div>
       <div className="chart-bar__label">{props.label}</div>
     </div>
