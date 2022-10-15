@@ -12,7 +12,7 @@ function ChartBar(props) {
       <div className="chart-bar__inner">
         <div
           className="chart-bar__fill"
-          style={{ height: barFillHeight }}
+          style={{ height: barFillHeight }} //setting an ccs style dynamically!
         ></div>
       </div>
       <div className="chart-bar__label">{props.label}</div>
