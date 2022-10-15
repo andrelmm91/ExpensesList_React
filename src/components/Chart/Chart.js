@@ -10,7 +10,7 @@ function Chart(props) {
         <ChartBar
           key={dataPoint.label}
           value={dataPoint.value}
-          maxValue={null}
+          maxValue={totalMaximum}
           label={dataPoint.label}
         />
       ))}
