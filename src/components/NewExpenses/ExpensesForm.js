@@ -33,7 +33,7 @@ function ExpensesForm(props) {
     // creating an array for sending it back, correcting date format.
     const expenseData = {
       Title: useInput.enteredTitle,
-      Amount: useInput.enteredAmount,
+      Amount: +useInput.enteredAmount,
       Date: new Date(useInput.enteredDate),
     };
 
